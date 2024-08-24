@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container form{
+    background-color: #F8EDE3;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #C5705D;
+    border-radius: 15px;
+}
+.container form .heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5vw;
+}
+.container form .heading h1{
+    color: #D0B8A8;
+    font-size: 30px;
+}
+hr{
+    width: 80%;
+    color: #C5705D;
+}
+.container form .head{
+    width: 100%;
+    margin-top: .4vw;
+    margin-bottom: 1vw;
+}
+.container form .head .insert{
+    width: 100%;
+    display: flex;
+    padding: 1vw;
+}
+.container form .head .insert .insert-bar{
+    width: 90%;
+}
+.container form .head .insert .insert-bar input{
+    width: 100%;
+    height: 4.5vh;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #DFD3C3;
+    border-radius: 15px;
+
+}
+.container form .head .insert .insert-bar input::placeholder{
+    color: #C5705D;
+}
+.container form .head .insert .insert-btn{
+    margin-left: 1vw;
+}
+.container form .head .insert .insert-btn button{
+    width: 61px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0B8A8;
+}
+.container form .head .insert .insert-btn button svg{
+    width: 31px;
+    height: 31px;
+    fill: #C5705D;
+}
+.container form .task-list{
+    width: 100%;
+    display: flex;
+}
+.container form .task-list ul{
+    width: 100%;
+    list-style: none;
+    padding-bottom: 1vw;
+}
+.container form .task-list ul li{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1vw;
+}
+.container form .task-list ul .chk-container{
+    cursor: pointer;
+    margin-left: 1vw;
+    width: 10%;
+}
+.container form .task-list ul .task-container{
+    display: flex;
+    margin-bottom: 10px;
+    width: 75%;
+    margin-top: 6px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto; 
+}
+.container form .task-list ul .rmv-container{
+    cursor: pointer;
+}
