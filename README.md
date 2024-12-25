@@ -1,1 +1,1 @@
-Vanilla JS To-do-List
+Basic To do List project (Vanila) it uses Local Storage to Save User data
